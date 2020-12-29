@@ -2,4 +2,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - git log | head -100
+      - git diff-tree --no-commit-id --name-only -r $CODEBUILD_RESOLVED_SOURCE_VERSION
