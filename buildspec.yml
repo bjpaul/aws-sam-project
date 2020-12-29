@@ -3,4 +3,3 @@ phases:
   build:
     commands:
       - scripts/script.sh
-      - cat output.txt
